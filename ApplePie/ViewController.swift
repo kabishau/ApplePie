@@ -30,6 +30,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("Hello World!")
         
         // instance of the Game struct that keeping information about current game
         var currentGame: Game!
@@ -46,10 +47,14 @@ class ViewController: UIViewController {
             
         }
         
+        newRound()
+        
         func updateUI() {
             scoreLabel.text = "Wins: \(totalWins), Losses: \(totalLosses)"
             treeImageView.image = UIImage(named: "Tree \(currentGame.incorrectMovesRemaining)")
         }
+        
+        updateUI()
         
     }
 

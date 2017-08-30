@@ -58,11 +58,11 @@
 			children = (
 				B635BE7D1F5751180070B230 /* AppDelegate.swift */,
 				B635BE7F1F5751180070B230 /* ViewController.swift */,
+				B635BE8F1F5779E90070B230 /* Game.swift */,
 				B635BE811F5751180070B230 /* Main.storyboard */,
 				B635BE841F5751180070B230 /* Assets.xcassets */,
 				B635BE861F5751180070B230 /* LaunchScreen.storyboard */,
 				B635BE891F5751180070B230 /* Info.plist */,
-				B635BE8F1F5779E90070B230 /* Game.swift */,
 			);
 			path = ApplePie;
 			sourceTree = "<group>";
